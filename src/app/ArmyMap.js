@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useMap } from "react-leaflet"; // ❌ MUST import normally
-import "leaflet/dist/leaflet.css";
 import Link from "next/link";
 
 // ✅ Dynamically import MapContainer components for SSR false
@@ -28,9 +27,9 @@ const Circle = dynamic(
 );
 
 // ✅ Leaflet CSS only on client
-if (typeof window !== "undefined") {
-  import("leaflet/dist/leaflet.css");
-}
+// if (typeof window !== "undefined") {
+//   import("leaflet/dist/leaflet.css");
+// }
 
 // ✅ ChangeView component
 function ChangeView({ center }) {

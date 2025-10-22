@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import ArmyMap from "./ArmyMap";
+import SocialNavigation from "@/components/SocialNavigation";
 
 export default function Home() {
   const [allCamps, setAllCamps] = useState([]);
@@ -16,6 +17,7 @@ export default function Home() {
     <div>
       <main className="flexs flex-cols md:flex-rows">
         <ArmyMap allCamps={allCamps} />
+        <SocialNavigation />
       </main>
     </div>
   );
