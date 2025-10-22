@@ -7,7 +7,7 @@ export default function Home() {
   const [allCamps, setAllCamps] = useState([]);
 
   useEffect(() => {
-    fetch("/armyCampData.json")
+    fetch("armyCampData.json")
       .then((res) => res.json())
       .then((data) => setAllCamps(data));
   }, []);
