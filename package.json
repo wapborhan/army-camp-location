@@ -7,8 +7,7 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next export"
+    "lint": "eslint"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
