@@ -2,7 +2,7 @@
   "name": "army-camp-location",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/wapborhan/army-camp-location",
+  "homepage": "https://code.wapborhan.com/army-camp-location",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
